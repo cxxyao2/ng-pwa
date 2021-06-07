@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1623033761270,
+  "index": "https://cxxyao2.github.io/ng-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://cxxyao2.github.io/ng-pwa/favicon.ico",
+        "https://cxxyao2.github.io/ng-pwa/index.html",
+        "https://cxxyao2.github.io/ng-pwa/main.acb12ce99aa419ef2b2a.js",
+        "https://cxxyao2.github.io/ng-pwa/manifest.webmanifest",
+        "https://cxxyao2.github.io/ng-pwa/polyfills.8c151b8375e767ff858f.js",
+        "https://cxxyao2.github.io/ng-pwa/runtime.0e49e2b53282f40c8925.js",
+        "https://cxxyao2.github.io/ng-pwa/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://cxxyao2.github.io/ng-pwa/assets/big-image.jpg",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-128x128.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-144x144.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-152x152.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-192x192.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-384x384.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-512x512.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-72x72.png",
+        "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://cxxyao2.github.io/ng-pwa/assets/big-image.jpg": "e224d2e6242d83a7ae61dc37d3bfab78de6cee57",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://cxxyao2.github.io/ng-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://cxxyao2.github.io/ng-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://cxxyao2.github.io/ng-pwa/index.html": "3b222e2102499d4bc325fe34d24e03e2a966d626",
+    "https://cxxyao2.github.io/ng-pwa/main.acb12ce99aa419ef2b2a.js": "6ee735bcac266118b8059de417e30977885d418e",
+    "https://cxxyao2.github.io/ng-pwa/manifest.webmanifest": "4b92745472c19650289cdc7294ead59e56977683",
+    "https://cxxyao2.github.io/ng-pwa/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://cxxyao2.github.io/ng-pwa/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://cxxyao2.github.io/ng-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
