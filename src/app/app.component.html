@@ -6,6 +6,9 @@
   }
 </style>
 <p>
-  hello world <button (click)="addToHomeScreen()">add to home screen</button>
+  hello world
+  <button *ngIf="showButton" (click)="addToHomeScreen()">
+    add to home screen
+  </button>
 </p>
 <img src="./assets/big-image.jpg" alt="big image" />
