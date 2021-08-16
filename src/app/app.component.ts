@@ -1,15 +1,27 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'ng-pwa';
 
   deferredPrompt: any;
   showButton = false;
+
+  constructor(private swUpdate: SwUpdate) {}
+  ngOnInit() {
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        if (confirm('New version available. Load New Version?')) {
+          window.location.reload();
+        }
+      });
+    }
+  }
 
   @HostListener('window:beforeinstallprompt', ['$event'])
   onbeforeinstallprompt(e: any) {
@@ -29,7 +41,9 @@ export class AppComponent {
     // Wait for the user to respond to the prompt
     this.deferredPrompt.userChoice.then((choiceResult: any) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2H2 prompt');
+        console.log(
+          'User accepted the A2H2 prompt. We can added app to mobile screen.'
+        );
       } else {
         console.log('User dismissed the A2H2  prompt');
       }

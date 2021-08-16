@@ -1,0 +1,7 @@
+img {
+  display: block;
+  width: 300px;
+  object-fit: cover;
+  border: 1px solid coral;
+  box-shadow: 0 2px 5px 2px gray;
+}
