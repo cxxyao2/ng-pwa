@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1629080880673,
-  "index": "https://github.com/cxxyao2/ng-pwa/index.html",
+  "timestamp": 1629081533851,
+  "index": "https://github.io/cxxyao2/ng-pwa/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://github.com/cxxyao2/ng-pwa/favicon.ico",
-        "https://github.com/cxxyao2/ng-pwa/index.html",
-        "https://github.com/cxxyao2/ng-pwa/main.b100b37b9bb4753983b9.js",
-        "https://github.com/cxxyao2/ng-pwa/manifest.webmanifest",
-        "https://github.com/cxxyao2/ng-pwa/polyfills.8c151b8375e767ff858f.js",
-        "https://github.com/cxxyao2/ng-pwa/runtime.0e49e2b53282f40c8925.js",
-        "https://github.com/cxxyao2/ng-pwa/styles.3ff695c00d717f2d2a11.css"
+        "https://github.io/cxxyao2/ng-pwa/favicon.ico",
+        "https://github.io/cxxyao2/ng-pwa/index.html",
+        "https://github.io/cxxyao2/ng-pwa/main.b100b37b9bb4753983b9.js",
+        "https://github.io/cxxyao2/ng-pwa/manifest.webmanifest",
+        "https://github.io/cxxyao2/ng-pwa/polyfills.8c151b8375e767ff858f.js",
+        "https://github.io/cxxyao2/ng-pwa/runtime.0e49e2b53282f40c8925.js",
+        "https://github.io/cxxyao2/ng-pwa/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -29,37 +29,37 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://github.com/cxxyao2/ng-pwa/assets/big-image.jpg",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-128x128.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-144x144.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-152x152.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-192x192.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-384x384.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-512x512.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-72x72.png",
-        "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-96x96.png"
+        "https://github.io/cxxyao2/ng-pwa/assets/big-image.jpg",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-128x128.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-144x144.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-152x152.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-192x192.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-384x384.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-512x512.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-72x72.png",
+        "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://github.com/cxxyao2/ng-pwa/assets/big-image.jpg": "e224d2e6242d83a7ae61dc37d3bfab78de6cee57",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://github.com/cxxyao2/ng-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://github.com/cxxyao2/ng-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://github.com/cxxyao2/ng-pwa/index.html": "f9ca71e882679bfa4506d6243f060c8858c5dad3",
-    "https://github.com/cxxyao2/ng-pwa/main.b100b37b9bb4753983b9.js": "c92ae0fed07ca4a3e02fd0d63e357bf5e957a653",
-    "https://github.com/cxxyao2/ng-pwa/manifest.webmanifest": "4b92745472c19650289cdc7294ead59e56977683",
-    "https://github.com/cxxyao2/ng-pwa/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://github.com/cxxyao2/ng-pwa/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://github.com/cxxyao2/ng-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://github.io/cxxyao2/ng-pwa/assets/big-image.jpg": "e224d2e6242d83a7ae61dc37d3bfab78de6cee57",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.io/cxxyao2/ng-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.io/cxxyao2/ng-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.io/cxxyao2/ng-pwa/index.html": "8b27aba639eca1d1c0c863782c6e8574c33747b4",
+    "https://github.io/cxxyao2/ng-pwa/main.b100b37b9bb4753983b9.js": "c92ae0fed07ca4a3e02fd0d63e357bf5e957a653",
+    "https://github.io/cxxyao2/ng-pwa/manifest.webmanifest": "4b92745472c19650289cdc7294ead59e56977683",
+    "https://github.io/cxxyao2/ng-pwa/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://github.io/cxxyao2/ng-pwa/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.io/cxxyao2/ng-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
