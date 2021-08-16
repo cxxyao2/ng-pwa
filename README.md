@@ -1,27 +1,30 @@
-# NgPwa
+# service worker: pwa and push notification
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+## test service worker should run the following command
 
-## Development server
+$ ng build --prod
+$ http-server -p 8080 -c-1 dist/your-project-name
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## deploy a PWA project to github
 
-## Code scaffolding
+> $ ng add angular-cli-ghpages  
+> $ ng deploy --base-href=https://....
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## push notifications
 
-## Build
+$ npm install web-push -g
+generate a VAPID key pair
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+$ web-push generate-vapid-keys --json
+output: {"publicKey": "....", "privateKey":"..."}
 
-## Running unit tests
+## use the public Key and private key in front end and back end.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## screenshots
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- ask for user's admission to receive notifications
+- ![allow Notification](assets/allowNotification.png)
+- send a notification from server side
+- ![send notification](assets/sendNotification.png)
+- get notification through browser
+- ![get notification](assets/getNotification.png)

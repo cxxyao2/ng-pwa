@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { SwUpdate } from '@angular/service-worker';
+import { SwPush, SwUpdate } from '@angular/service-worker';
+import { NewsLetterService } from './services/news-letter.service';
 
 @Component({
   selector: 'app-root',
@@ -8,11 +9,17 @@ import { SwUpdate } from '@angular/service-worker';
 })
 export class AppComponent implements OnInit {
   title = 'ng-pwa';
+  readonly VAPID_PUBLIC_KEY =
+    'YOUR-OWN-PUBLIC-KEY';
 
   deferredPrompt: any;
   showButton = false;
 
-  constructor(private swUpdate: SwUpdate) {}
+  constructor(
+    private swUpdate: SwUpdate,
+    private swPush: SwPush,
+    private newsletterService: NewsLetterService
+  ) {}
   ngOnInit() {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
@@ -49,5 +56,35 @@ export class AppComponent implements OnInit {
       }
       this.deferredPrompt = null;
     });
+  }
+
+  subscribeToNotifications() {
+    if (this.swPush.isEnabled) {
+      this.swPush
+        .requestSubscription({
+          serverPublicKey: this.VAPID_PUBLIC_KEY,
+        })
+        .then((sub) =>
+          this.newsletterService.addPushSubscriber(sub).subscribe()
+        )
+        .catch((err) =>
+          console.error('Could not subscribe to notifications', err)
+        );
+    } else {
+      console.log('swPush is not enabled');
+    }
+  }
+
+  triggerSendLetter() {
+    if (this.swPush.isEnabled) {
+      this.newsletterService.triggerSendLetter().subscribe(
+        (data) => {
+          console.log('letter is', data);
+        },
+        (err) => {
+          console.log('error is ', err);
+        }
+      );
+    }
   }
 }
